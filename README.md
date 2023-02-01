@@ -3,14 +3,14 @@
 ![image](https://user-images.githubusercontent.com/105970953/215973615-ab53f7fd-619c-48d2-9f79-32429b86e2b1.png)
 
 
-Problem Statement :
+##**Problem Statement :
 
 
 To predict the individual household electricity consumption depending on the following attributes.
 
 
 
-Attribute Information:
+##**Attribute Information:
 
 
 date: Date in format dd/mm/yyyy
@@ -32,20 +32,32 @@ sub_metering_2: energy sub-metering No. 2 (in watt-hour of active energy). It co
 sub_metering_3: energy sub-metering No. 3 (in watt-hour of active energy). It corresponds to an electric water-heater and an air-conditioner.
 
 
-I have performed
+##**I have performed
 
 
 Data ingestion
+
+
 Exploratory data analysis
+
 Handling the outliers
+
 Store the preprocessed data in mongoDB
+
 Retrive data from mongoDB
+
 Model Building
+
 Standardize Scaler
+
 Dumo the preprocessed data into pickle file
+
 Linear Regression
+
 Ridge Regression
+
 Lasso Regression
-Support vector Regression
-Hyper-parameter turning the SVM model using GridSearchCV
+
+ElasticNet Regression
+
 Report ( Summary )
