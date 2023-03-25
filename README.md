@@ -49,7 +49,7 @@ Model Building
 
 Standardize Scaler
 
-Dumo the preprocessed data into pickle file
+Dump the preprocessed data into pickle file
 
 Linear Regression
 
